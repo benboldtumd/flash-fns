@@ -13,7 +13,7 @@ Q1,"BC847CW, NPN Transistor, 45V, 100mA, SOT-323",1
 R5,"0603 Resistor, 1.75k",1
 R9,"0603 Resistor, 100k",1
 U1,"Altera Max V 5M40ZE64, CPLD, TQFP-64, 0.4mm Pitch",1
-U2,"UT62256, Parallel SRAM Chip, SOIC-28",1
+U2,"UT62256, 32kByte Parallel SRAM Chip, SOIC-28",1
 U3,"TLV1117-3.3, 3.3V Linear Regulator, SOT-223",1
 U4,"LD39015M18R, 1.8V Linear Regulator, SOT23-5",1
 "U5, U6, U7","74LVC14, Hex Inverter with Schmitt Trigger, TSSOP-14",3
