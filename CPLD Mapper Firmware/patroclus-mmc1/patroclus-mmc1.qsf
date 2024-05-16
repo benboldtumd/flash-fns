@@ -38,7 +38,7 @@
 
 
 set_global_assignment -name FAMILY "MAX V"
-set_global_assignment -name DEVICE 5M40ZE64C5
+set_global_assignment -name DEVICE 5M80ZE64C5
 set_global_assignment -name TOP_LEVEL_ENTITY "patroclus-mmc1"
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 23.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:26:20  MAY 04, 2024"
