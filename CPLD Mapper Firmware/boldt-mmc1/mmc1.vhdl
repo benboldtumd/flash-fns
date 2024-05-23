@@ -105,6 +105,7 @@ begin
 					
 					if( cpu_D7 = '1' ) then  -- Reset detected by CPU D7 = 1.
 						reg_bit_counter <= "00";
+						reg_bit_commit <= '0';
 						control_reg(3 downto 2) <= "11";
 						
 					-- The last bit is being received:
