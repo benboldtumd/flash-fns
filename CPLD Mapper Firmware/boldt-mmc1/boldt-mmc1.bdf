@@ -311,7 +311,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 808 344 984 360)
+	(rect 832 -32 1008 -16)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "test31" (rect 90 0 120 12)(font "Arial" ))
 	(pt 0 8)
@@ -324,6 +324,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1008 -16 1064 8))
 )
 (symbol
 	(rect 416 40 664 216)
@@ -614,9 +615,27 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 8 8)(pt 24 8))
 	)
 )
-(connector
-	(pt 72 72)
-	(pt 88 72)
+(symbol
+	(rect 416 -56 568 24)
+	(text "CIC_DEFEAT" (rect 5 0 73 12)(font "Arial" ))
+	(text "inst1" (rect 8 64 30 81)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "m2" (rect 0 0 15 12)(font "Arial" ))
+		(text "m2" (rect 21 27 36 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "cic_reset" (rect 0 0 44 12)(font "Arial" ))
+		(text "cic_reset" (rect 94 27 138 39)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 64))
+	)
 )
 (connector
 	(pt 72 152)
@@ -808,4 +827,25 @@ https://fpgasoftware.intel.com/eula.
 	(pt 760 496)
 	(pt 808 496)
 )
+(connector
+	(pt 80 72)
+	(pt 80 -24)
+)
+(connector
+	(pt 80 -24)
+	(pt 416 -24)
+)
+(connector
+	(pt 72 72)
+	(pt 80 72)
+)
+(connector
+	(pt 80 72)
+	(pt 88 72)
+)
+(connector
+	(pt 568 -24)
+	(pt 832 -24)
+)
 (junction (pt 88 312))
+(junction (pt 80 72))

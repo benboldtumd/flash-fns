@@ -80,3 +80,4 @@ set_location_assignment PIN_25 -to "PRG-ROM_Address[16]"
 set_location_assignment PIN_24 -to "PRG-ROM_Address[15]"
 set_location_assignment PIN_28 -to "PRG-ROM_Address[14]"
 set_location_assignment PIN_31 -to test31
+set_global_assignment -name VHDL_FILE cic_defeat.vhdl
