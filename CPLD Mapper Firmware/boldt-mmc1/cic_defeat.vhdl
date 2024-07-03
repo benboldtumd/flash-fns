@@ -16,8 +16,8 @@ architecture logic of CIC_DEFEAT is
 
 begin
 
-	cic_reset <= '1' when counter(7 downto 4) = "1111" else
-	             '0';
+	cic_reset <= '0' when counter(7 downto 4) = "1111" else
+	             '1';
 
 	process( m2 )
 	begin

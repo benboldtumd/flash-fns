@@ -49,7 +49,7 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
 set_global_assignment -name BDF_FILE "boldt-mmc1.bdf"
 set_global_assignment -name VHDL_FILE mmc1.vhdl
-set_global_assignment -name DEVICE_FILTER_PACKAGE EQFP
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
 set_location_assignment PIN_58 -to CPU_A0_N_3v3
 set_location_assignment PIN_55 -to CPU_A1_N_3v3
 set_location_assignment PIN_59 -to CPU_A2_N_3v3
@@ -81,3 +81,6 @@ set_location_assignment PIN_24 -to "PRG-ROM_Address[15]"
 set_location_assignment PIN_28 -to "PRG-ROM_Address[14]"
 set_location_assignment PIN_31 -to test31
 set_global_assignment -name VHDL_FILE cic_defeat.vhdl
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 64
+set_location_assignment PIN_51 -to cic_reset
+set_location_assignment PIN_49 -to cic_clock
