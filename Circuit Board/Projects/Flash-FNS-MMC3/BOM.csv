@@ -17,7 +17,7 @@ R9,"0603 Resistor, 100k",1
 U1,"Altera Max V 5M80ZE64, CPLD, TQFP-64, 0.4mm Pitch [Sub: 5M40, 5M160, etc.]",1
 U2,"UT62256, 32kByte Parallel SRAM Chip, SOIC-28",1
 U3,"TLV1117-3.3, 3.3V Linear Regulator, SOT-223",1
-U4,"MIC55014-1.8, 1.8V Linear Regulator, SOT23-5 [Sub: LD39015M18R]",1
+U4,"MIC55014-1.8, 1.8V Linear Regulator, SOT23-5 [Sub: NJM2866F18 or LD39015M18R, etc]",1
 "U5, U6, U7","74LVC14, Hex Inverter with Schmitt Trigger, TSSOP-14",3
 ,,
 Optional items for 3.3V rail power LED:,,
