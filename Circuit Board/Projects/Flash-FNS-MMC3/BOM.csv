@@ -1,31 +1,35 @@
 Reference Designator(s),Name,Quantity
 B1,CR2032 or CR1616 Battery Holder,1
-"C20, C21","0603 Ceramic Cap, 56pF, >5V (typ. 50V)",2
+C20,"0603 Ceramic Cap, 56pF, >5V (typ. 50V)",1
+C21,Do not populate.,0
 "C1, C4, C6, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19","0603 Ceramic Cap, 100nF, >5V (typ. 50V-100V)",15
 C2,"1206 Ceramic Cap, 1uF, >5V (typ. 16V-100V)",1
 "C3, C5, C7","1206 Ceramic Cap, 10uF, >5V (typ. 16V-25V)",3
-"D1, D2, D3","BAT54JW, 30V, 200mA Schottky Diode, SOD-323 (Not SOT-323) [Sub: PMEG4010]",3
+"D1, D2","BAT54JW, 30V, 200mA Schottky Diode, SOD-323 (Not SOT-323) [Sub: PMEG4010]",2
+D3,Do not populate.,0
 J2,PLCC-32 Surface-Mount Socket (without pegs),1
 "J3, J4","Molex 53261-0671, Male JST-1.25mm connector",2
 Q1,"BC847CW, NPN Transistor, 45V, 100mA, SOT-323",1
-"R5, R7, R8","0603 Resistor, 1k",3
+R8,"0603 Resistor, 0 ohm (or using wire or solder bridge)",1
+"R5, R7","0603 Resistor, 1k",2
 "R1, R2, R3, R4","0603 Resistor, 4.7k",4
 R9,"0603 Resistor, 100k",1
 U1,"Altera Max V 5M80ZE64, CPLD, TQFP-64, 0.4mm Pitch [Sub: 5M40, 5M160, etc.]",1
 U2,"UT62256, 32kByte Parallel SRAM Chip, SOIC-28",1
 U3,"TLV1117-3.3, 3.3V Linear Regulator, SOT-223",1
-U4,"LD39015M18R, 1.8V Linear Regulator, SOT23-5",1
+U4,"MIC55014-1.8, 1.8V Linear Regulator, SOT23-5 [Sub: LD39015M18R]",1
 "U5, U6, U7","74LVC14, Hex Inverter with Schmitt Trigger, TSSOP-14",3
 ,,
 Optional items for 3.3V rail power LED:,,
 D4,0805 LED,1
-R10,0603 Resistor for the LED (value chosen to suit the LED),1
+R10,"0603 Resistor for the LED (value chosen to suit the LED, ex. 150 ohm for green)",1
 ,,
 "Without AVR-CIC chip, using CPLD defeat method:",,
 U8,Do not populate.,0
-R6,"0603 Resistor, 10k (Can populate it but it isn’t functioning in this configuration.)",1
+R6,"0603 Resistor, 10k",1
 R11,"0603 Resistor, 10k",1
-CL2,Closed.,
+CL2,Cut it open with a knife.,
+(rework),2N7002 FET and wires.,1
 ,,
 With the AVR-CIC chip (firmware not yet existing for FNS!):,,
 U8,"ATTINY13A, SOIC-8 or SOIJ-8",1
